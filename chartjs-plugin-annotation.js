@@ -1,7 +1,7 @@
 /*!
  * chartjs-plugin-annotation.js
  * http://chartjs.org/
- * Version: 0.6.0
+ * Version: 0.6.1
  *
  * Copyright 2016 Evert Timberg
  * Released under the MIT license
@@ -281,7 +281,7 @@ function isValid(num) {
     return isFinite(num);
   }
 
-  return num.replace(/\s/g, '') && typeof num === 'string';
+  return num && typeof num === 'string' && num.replace(/\s/g, '');
 }
 
 function decorate(obj, prop, func) {

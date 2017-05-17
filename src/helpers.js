@@ -16,7 +16,7 @@ function isValid(num) {
     return isFinite(num);
   }
 
-  return num.replace(/\s/g, '') && typeof num === 'string';
+  return num && typeof num === 'string' && num.replace(/\s/g, '');
 }
 
 function decorate(obj, prop, func) {

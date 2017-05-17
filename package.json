@@ -1,13 +1,13 @@
 {
-  "name": "chartjs-plugin-annotation-sv",
+  "name": "chartjs-plugin-annotations",
   "description": "Annotations for Chart.js",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "author": "Evert Timberg <evert.timberg@gmail.com>",
   "license": "MIT",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/powerfulbpv/chartjs-plugin-annotation-sv.git"
+    "url": "https://github.com/powerfulbpv/chartjs-plugin-annotation.git"
   },
   "devDependencies": {
     "browserify": "^13.0.0",
